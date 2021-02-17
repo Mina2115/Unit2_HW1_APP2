@@ -10,7 +10,7 @@ require([
         var view = new MapView({
           container: "viewDiv",
           map: map,
-          zoom: 6,
+          zoom: 10,
           center: [-90, 38]
         });
 
