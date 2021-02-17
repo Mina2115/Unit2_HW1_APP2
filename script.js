@@ -10,7 +10,7 @@ require([
         var view = new MapView({
           container: "viewDiv",
           map: map,
-          zoom: 10,
+          zoom: 13,
           center: [-90, 38]
         });
 
@@ -32,5 +32,5 @@ var featureLayer_2 = new FeatureLayer({
 
 map.add(featureLayer_2);
 
-        map.add(featureLayer);
+        map.add(featureLayer_1);
       });
